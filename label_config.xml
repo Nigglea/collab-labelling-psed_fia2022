@@ -1,0 +1,33 @@
+<View>
+  <View style="display:,;align-items:start;gap:10px;flex-direction:column">
+    <AudioPlus name="audio" value="$audio"/>
+    <View>
+      <Filter toName="label" minlength="0" name="filter"/>
+      <Labels name="label" toName="audio" zoom="true" hotkey="ctrl+enter" showInline="true">
+        <Label value="perro" background="#C0392B" hotkey="1"/>
+        <Label value="rana_moteada" background="#E74C3C" hotkey="2"/>
+        <Label value="rana_de_antifaz" background="#9B59B6" hotkey="3"/>
+        <Label value="sapito" background="#8E44AD" hotkey="4"/>
+        <Label value="otros_anfibios" background="#2980B9" hotkey="5"/>
+        <Label value="queltehue" background="#3498DB" hotkey="6"/>
+        <Label value="bandurria" background="#1ABC9C" hotkey="7"/>
+        <Label value="tiuque" background="#16A085" hotkey="8"/>
+        <Label value="otras_aves" background="#27AE60" hotkey="9"/>
+        <Label value="motor_fuente_movil" background="#ABEBC6" hotkey="q"/>
+        <Label value="bocina" background="#F39C12" hotkey="w"/>
+        <Label value="sirena" background="#E67E22" hotkey="e"/>
+        <Label value="alarma" background="#D35400" hotkey="r"/>
+        <Label value="otros_antropofonos" background="#EDBB99" hotkey="t"/>
+        <Label value="goteo" background="#95A5A6" hotkey="y"/>
+        <Label value="lluvia_intensidad_media" background="#7F8C8D" hotkey="u"/>
+        <Label value="lluvia_intensidad_fuerte_torrencial" background="#34495E" hotkey="i"/>
+        <Label value="viento_intensidad_media_grave" background="#BDC3C7" hotkey="o"/>
+        <Label value="viento_intensidad_alta_chiflido" background="#F0F3F4" hotkey="p"/>
+      </Labels>
+    </View>
+  </View>
+  <View visibleWhen="region-selected">
+    <Header value="Comentarios extra"/>
+  </View>
+  <TextArea name="Comentario" toName="audio" rows="2" editable="true" perRegion="true" required="false"/>
+</View>
