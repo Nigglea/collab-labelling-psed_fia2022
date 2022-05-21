@@ -1,33 +1,25 @@
 #### taxonomy
 
 taxonomy:
-    biophony:
-        amphibian:
-            Batrachyla_leptopus
-            Batrachyla_taeniata
-            Pleurodema_thaul
-            other_amphibians
-        bird:
-            Vanellus_chilensis
-            Theristicus_caudatus
-            Milvago_chimango
-            other_birds
-        dog:
-    anthropophony:
-        motor:
-        social_signals:
-            alarm
-            siren
-            car_horn
-        anthropophony_others:
-    geophony:
-        rain:
-            rain_drip
-            medium
-            strong
-        wind:
-            blown
-            whistle
+    biophony-amphibian-Batrachyla_leptopus: 0
+    biophony-amphibian-Batrachyla_taeniata: 1
+    biophony-amphibian-Pleurodema_thaul : 2
+    biophony-amphibian-other_amphibians : 3
+    biophony-bird-Vanellus_chilensis : 4
+    biophony-bird-Theristicus_caudatus : 5
+    biophony-bird-Milvago_chimango : 6
+    biophony-bird-other_birds : 7
+    biophony-dog : 8
+    anthropophony-motor : 9
+    anthropophony-social_signals-alarm : 10
+    anthropophony-social_signals-siren : 11
+    anthropophony-social_signals-car_horn : 12
+    anthropophony-anthropophony_others : 13
+    geophony-rain-rain_drip : 14
+    geophony-rain-medium : 15
+    geophony-rain-strong : 16
+    geophony-wind-blown : 17
+    geophony-wind-whistle : 18
     
 taxonomy_inv:
     Batrachyla_leptopus:
