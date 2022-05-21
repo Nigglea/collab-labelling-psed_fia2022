@@ -1,6 +1,6 @@
 #### taxonomy
 
-taxonomy:
+taxonomy_full:
     biophony-amphibian-Batrachyla_leptopus: 0
     biophony-amphibian-Batrachyla_taeniata: 1
     biophony-amphibian-Pleurodema_thaul : 2
@@ -20,6 +20,27 @@ taxonomy:
     geophony-rain-strong : 16
     geophony-wind-blown : 17
     geophony-wind-whistle : 18
+
+taxonomy:
+    Batrachyla_leptopus: 0
+    Batrachyla_taeniata: 1
+    Pleurodema_thaul : 2
+    other_amphibians : 3
+    Vanellus_chilensis : 4
+    Theristicus_caudatus : 5
+    Milvago_chimango : 6
+    other_birds : 7
+    dog : 8
+    motor : 9
+    alarm : 10
+    siren : 11
+    car_horn : 12
+    anthropophony_others : 13
+    rain_drip : 14
+    rain_medium : 15
+    rain_strong : 16
+    blown : 17
+    whistle : 18
     
 taxonomy_inv:
     Batrachyla_leptopus:
