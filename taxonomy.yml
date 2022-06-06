@@ -21,7 +21,23 @@ taxonomy_full:
     geophony-wind-blown : 17
     geophony-wind-whistle : 18
 
-taxonomy:
+class_1:
+    biophony: 0
+    anthropophony: 1
+    geophony: 2
+
+
+class_2:
+    amphibian: 0
+    bird: 1
+    dog: 2
+    motor: 3
+    social_signals: 4
+    anthropophony_others: 5
+    rain: 6
+    wind: 7
+
+class_3:
     Batrachyla_leptopus: 0
     Batrachyla_taeniata: 1
     Pleurodema_thaul : 2
